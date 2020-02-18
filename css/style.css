@@ -49,9 +49,24 @@ padding:0;
 {
 font-size: 40px;
 font-weight: 700;
-padding:50px 0;
+padding:20px 0;
 text-transform: uppercase;
 color: #EEE6E6
+}
+.header.fixed
+{
+height: 100px;
+position: fixed;
+background-color: rgba(251,76,60,.55);
+transition: background .5s ;
+}
+
+.header.fixed .header__inner
+{
+padding-top: 15px;
+padding-bottom: 15px;
+border-bottom: 0;
+
 }
 /*--------------------Navigation---------------------*/
 
@@ -365,6 +380,7 @@ font-weight: 400;
 text-align: center;
 color:#E74C3C;
 margin:44px 0;
+padding-top:25px; 
 }
 .contact__content
 {
